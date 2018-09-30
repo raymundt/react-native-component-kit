@@ -1,5 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import RNComponentKit from 'react-native-component-kit';
+
+// TODO: What to do with the module?
+RNComponentKit;
 
 export default class App extends React.Component {
   render() {
