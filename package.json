@@ -1,7 +1,7 @@
 {
   "name": "react-native-component-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native Component Kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,7 @@
   "author": "",
   "license": "",
   "peerDependencies": {
+    "react": "*",
     "react-native": "*"
   }
 }

@@ -1,6 +1,18 @@
+// @flow
 
-import { NativeModules } from 'react-native';
+import React from 'react'
+import { View, Text } from 'react-native'
 
-const { RNComponentKit } = NativeModules;
+export default class RNComponentKit extends React.PureComponent {
 
-export default RNComponentKit;
+    render () {
+        return (
+          <View>
+            <Text>
+                12345
+            </Text>
+          </View>
+        )
+    }
+
+}
