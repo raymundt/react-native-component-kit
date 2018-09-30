@@ -10,7 +10,7 @@
     "react-native"
   ],
   "author": "",
-  "license": "",
+  "license": "UNLICENSED",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
