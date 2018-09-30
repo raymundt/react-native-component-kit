@@ -3645,8 +3645,9 @@ react-native-branch@2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.2.5.tgz#4074dd63b4973e6397d9ce50e97b57c77a518e9d"
 
-"react-native-component-kit@file:../..":
+react-native-component-kit@^1.0.0:
   version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-component-kit/-/react-native-component-kit-1.0.0.tgz#9731aa8806f58bdcefb8d5a4e32b064365d44da0"
 
 react-native-gesture-handler@1.0.6:
   version "1.0.6"
