@@ -1,17 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import RNComponentKit from 'react-native-component-kit';
-
-// TODO: What to do with the module?
-RNComponentKit;
+import { StyleSheet, View } from 'react-native';
+import CodeView from 'react-native-component-kit';
 
 export default class App extends React.Component {
   render() {
+    const code = "console.log('This is a module usage demo');";
+
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <RNComponentKit>
-        </RNComponentKit>
+        <CodeView code={code} />
       </View>
     );
   }
