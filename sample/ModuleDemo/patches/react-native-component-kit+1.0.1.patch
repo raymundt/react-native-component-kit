@@ -1,0 +1,32 @@
+patch-package
+--- a/node_modules/react-native-component-kit/index.js
++++ b/node_modules/react-native-component-kit/index.js
+@@ -48,16 +48,16 @@ const styles = StyleSheet.create({
+         marginRight: 6
+     },
+     closeButton: {
+-        backgroundColor: 'red',
+-        borderColor: 'red'
++        backgroundColor: 'blue',
++        borderColor: 'blue'
+     },
+     minimizeButton: {
+-        backgroundColor: 'orange',
+-        borderColor: 'orange'
++        backgroundColor: 'purple',
++        borderColor: 'purple'
+     },
+     maximizeButton: {
+-        backgroundColor: 'green',
+-        borderColor: 'green'
++        backgroundColor: 'yellow',
++        borderColor: 'yellow'
+     },
+     code: {
+         marginLeft: 4,
+new file mode 120000
+--- /dev/null
++++ b/node_modules/react-native-component-kit/node_modules/.bin/react-native
+@@ -0,0 +1 @@
++../../../react-native/local-cli/wrong-react-native.js
+\ No newline at end of file
