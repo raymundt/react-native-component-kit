@@ -24,9 +24,3 @@ patch-package
      },
      code: {
          marginLeft: 4,
-new file mode 120000
---- /dev/null
-+++ b/node_modules/react-native-component-kit/node_modules/.bin/react-native
-@@ -0,0 +1 @@
-+../../../react-native/local-cli/wrong-react-native.js
-\ No newline at end of file
